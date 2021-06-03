@@ -1,0 +1,385 @@
+@font-face {
+  font-family: Lemon;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/LEMONMILK-Regular.otf");
+}
+@font-face {
+  font-family: Lemon;
+  font-style: bold;
+  font-weight: 600;
+  src: url("../fonts/LEMONMILK-Bold.otf");
+}
+body {
+  background: #ededed;
+  color: #181818;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: "Lemon";
+}
+
+p, li, a, small {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background: #007b9d !important;
+  border: 0 !important;
+  padding: 20px 0 !important;
+  font-family: "Lemon" !important;
+  font-weight: bold !important;
+  color: #ededed !important;
+  box-shadow: 0 0 25px rgba(0, 123, 157, 0.5);
+  border-radius: 30px !important;
+}
+
+header {
+  background: linear-gradient(#007b9d, #52cc72);
+  padding: 120px 0 60px;
+}
+header h1 {
+  font-weight: bold;
+  color: #ededed;
+  margin-bottom: 30px;
+}
+header img {
+  width: 560px;
+}
+header p {
+  color: #fff;
+  font-size: 24px;
+}
+header button {
+  margin-top: 30px !important;
+}
+
+.below-header {
+  width: calc(260% + 1.3px);
+  height: 120px;
+  transform: translateX(-50%) rotateY(180deg);
+}
+
+.shape-fill {
+  fill: #52cc72;
+}
+
+#relaxe {
+  padding: 60px 0;
+}
+#relaxe h2 {
+  font-weight: bold;
+  color: #007b9d;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+#relaxe p {
+  font-size: 24px;
+}
+#relaxe .box {
+  box-shadow: 3px 0 20px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 32px 16px;
+  margin-top: 30px;
+  min-height: 300px;
+}
+#relaxe .box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#relaxe .box img {
+  padding: 0 10px 0 0;
+}
+#relaxe button {
+  margin-top: 40px;
+  padding: 20px 30px 20px 30px !important;
+  width: 300px;
+}
+
+#time {
+  transform: skewY(-3deg);
+  background: #52cc72;
+  padding: 60px 0;
+}
+#time .container {
+  transform: skewY(3deg);
+}
+#time h2 {
+  font-weight: bold;
+  color: #007b9d;
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: #ededed;
+}
+#time p {
+  font-size: 24px;
+  color: #ededed;
+}
+#time .box {
+  background: #ededed;
+  box-shadow: 3px 0 20px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 32px 16px;
+  margin-top: 30px;
+  min-height: 300px;
+}
+#time .box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+#time .box img {
+  padding: 0 10px 0 0;
+}
+#time button {
+  margin-top: 40px;
+  padding: 20px 30px 20px 30px !important;
+  width: 300px;
+}
+
+#gerenciamento {
+  padding: 60px 0;
+}
+#gerenciamento h2 {
+  font-weight: bold;
+  color: #007b9d;
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: #007b9d;
+}
+#gerenciamento h3 {
+  font-weight: bold;
+  color: #ededed;
+}
+#gerenciamento p {
+  font-size: 24px;
+  color: #181818;
+}
+#gerenciamento .box {
+  background: linear-gradient(#007b9d, #52cc72);
+  box-shadow: 3px 0 20px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 32px 32px;
+  margin-top: 30px;
+  min-height: 470px;
+  text-align: center;
+}
+#gerenciamento .box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #181818;
+  color: #ededed;
+}
+#gerenciamento .box img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+#gerenciamento button {
+  margin-top: 40px;
+  padding: 20px 30px 20px 30px !important;
+  width: 300px;
+}
+
+#planos {
+  background: linear-gradient(#007b9d, #52cc72);
+  padding: 60px 0;
+}
+#planos h2 {
+  font-weight: bold;
+  color: #007b9d;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #fff;
+}
+#planos h4 {
+  font-size: 42px;
+  font-family: "Lemon";
+  text-align: center;
+}
+#planos p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#planos .list-group-item.active {
+  background: #007b9d;
+}
+#planos .list-group-item.sem-destaque {
+  background: #ededed;
+}
+#planos button {
+  margin-top: 0px;
+}
+#planos .btn-sem-destaque {
+  background: #ededed !important;
+  color: #181818 !important;
+  box-shadow: none !important;
+}
+#planos .list-group-item-text {
+  color: #181818;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#duvida {
+  padding: 60px 0;
+  background: #007b9d;
+}
+#duvida h2 {
+  font-weight: bold;
+  color: #ededed;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+#duvida .btn-zap {
+  background: #52cc72 !important;
+  margin-top: 30px;
+  padding: 25px !important;
+}
+
+#integracoes {
+  padding: 60px 0;
+}
+#integracoes h2 {
+  font-weight: bold;
+  color: #007b9d;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #007b9d;
+}
+#integracoes .btn-zap {
+  background: #52cc72 !important;
+  margin-top: 30px;
+  padding: 25px !important;
+}
+
+footer {
+  padding: 60px 0;
+  background: #181818;
+}
+footer p {
+  font-size: 14px;
+  color: #ededed;
+}
+footer img {
+  margin-bottom: 30px;
+}
+footer a {
+  color: #ededed;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    padding: 20px 0;
+  }
+  header h1 {
+    font-weight: bold;
+    color: #ededed;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 32px;
+  }
+  header p {
+    font-size: 18px;
+  }
+  header button {
+    margin-top: 20px !important;
+  }
+
+  #relaxe {
+    padding: 20px 0;
+  }
+  #relaxe h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  #relaxe p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  #relaxe .box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #relaxe .box img {
+    padding: 0 10px 0 0;
+  }
+  #relaxe button {
+    margin-top: 20px;
+  }
+
+  #time {
+    padding: 20px 0;
+  }
+  #time h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  #time p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  #time .box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #time .box img {
+    padding: 0 10px 0 0;
+  }
+  #time button {
+    margin-top: 20px;
+  }
+
+  #gerenciamento {
+    padding: 20px 0;
+  }
+  #gerenciamento h2 {
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  #gerenciamento p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  #gerenciamento .box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #gerenciamento button {
+    margin-top: 20px;
+  }
+
+  #planos {
+    padding: 20px 0;
+  }
+  #planos h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  #planos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #planos .box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #planos button {
+    margin-top: 20px;
+  }
+
+  #duvida {
+    padding: 20px 0;
+  }
+  #duvida h2 {
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  #duvida button {
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

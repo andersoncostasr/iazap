@@ -1,0 +1,400 @@
+$verde: #52cc72;
+$azul: #007b9d;
+$preto: #181818;
+$cinza: #ededed;
+
+@font-face {
+    font-family: Lemon;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/LEMONMILK-Regular.otf');
+}
+
+@font-face {
+    font-family: Lemon;
+    font-style: bold;
+    font-weight: 600;
+    src: url('../fonts/LEMONMILK-Bold.otf');
+}
+
+body{
+    background: $cinza;
+    color: $preto;
+    overflow-x: hidden;
+}
+
+h1, h2, h3{
+    font-family: 'Lemon';
+}
+
+p, li, a, small{
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background: $azul !important;
+    border: 0 !important;
+    padding: 20px 0 !important;
+    font-family: 'Lemon' !important;
+    font-weight: bold !important;
+    color: $cinza !important;
+    box-shadow: 0 0 25px rgb(0 123 157 / 50%);
+    border-radius: 30px !important;
+}
+
+header{
+    background: linear-gradient($azul, $verde);
+    padding: 120px 0 60px;
+    h1{
+        font-weight: bold;
+        color: $cinza;
+        margin-bottom: 30px;
+    }
+    img{
+        width: 560px;
+    }
+    p{
+        color: #fff;
+        font-size: 24px;
+    }
+    button{
+        margin-top: 30px !important;
+    }
+    
+}
+
+.below-header {
+    width: calc(260% + 1.3px);
+    height: 120px;
+    transform: translateX(-50%) rotateY(180deg);
+
+}
+
+.shape-fill {
+    fill: $verde;
+}
+
+#relaxe{
+    padding: 60px 0;
+    h2{
+        font-weight: bold;
+        color: $azul;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    p{
+        font-size: 24px;
+    }
+    .box{
+        box-shadow: 3px 0 20px -2px rgb(0 0 0 / 25%);
+        border-radius: 15px;
+        padding: 32px 16px;
+        margin-top: 30px;
+        min-height: 300px;
+        p{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        img{
+            padding: 0 10px 0 0;
+        }
+    }
+    button{
+        margin-top: 40px;
+        padding: 20px 30px 20px 30px !important;
+        width: 300px;
+    }
+
+}
+
+#time{
+    transform: skewY(-3deg);
+    .container{
+        transform: skewY(3deg);
+    }
+    background: $verde;
+    padding: 60px 0;
+    h2{
+        font-weight: bold;
+        color: $azul;
+        margin-bottom: 30px;
+        margin-top: 0;
+        color: $cinza
+    }
+    p{
+        font-size: 24px;
+        color: $cinza;
+    }
+    .box{
+        background: $cinza;
+        box-shadow: 3px 0 20px -2px rgb(0 0 0 / 25%);
+        border-radius: 15px;
+        padding: 32px 16px;
+        margin-top: 30px;
+        min-height: 300px;
+        p{
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: $preto;
+        }
+        img{
+            padding: 0 10px 0 0;
+        }
+    }
+    button{
+        margin-top: 40px;
+        padding: 20px 30px 20px 30px !important;
+        width: 300px;
+    }
+}
+
+#gerenciamento{
+    padding: 60px 0;
+    h2{
+        font-weight: bold;
+        color: $azul;
+        margin-bottom: 30px;
+        margin-top: 0;
+        color: $azul
+    }
+    h3{
+        font-weight: bold;
+        color: $cinza;
+    }
+    p{
+        font-size: 24px;
+        color: $preto;
+    }
+    .box{
+        background: linear-gradient($azul, $verde);
+        box-shadow: 3px 0 20px -2px rgb(0 0 0 / 25%);
+        border-radius: 15px;
+        padding: 32px 32px;
+        margin-top: 30px;
+        min-height: 470px;
+        text-align: center;
+        p{
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: $preto;
+            color: $cinza;
+        }
+        img{
+            width: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    button{
+        margin-top: 40px;
+        padding: 20px 30px 20px 30px !important;
+        width: 300px;
+    }
+}
+
+
+#planos{
+    background: linear-gradient($azul, $verde);
+    padding: 60px 0;
+    h2{
+        font-weight: bold;
+        color: $azul;
+        margin-bottom: 10px;
+        margin-top: 0;
+        color: #fff;
+    }
+    h4{
+        font-size: 42px;
+        font-family: 'Lemon';
+        text-align: center;
+    }
+    p{
+        font-size: 24px;
+        color: #fff;;
+        margin-bottom: 30px;
+
+    }
+    .list-group-item.active{
+        background: $azul;
+    }
+    .list-group-item.sem-destaque{
+        background: $cinza;
+    }
+    button{
+        margin-top: 0px;
+    }
+    .btn-sem-destaque{
+        background: $cinza !important;
+        color: $preto !important;
+        box-shadow: none !important;
+    }
+    .list-group-item-text{
+        color: $preto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+
+#duvida{
+    padding: 60px 0;
+    background: $azul;
+    h2{
+        font-weight: bold;
+        color: $cinza;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .btn-zap {
+        background: $verde !important;
+        margin-top: 30px;
+        padding: 25px !important;
+    }
+}
+
+#integracoes{
+    padding: 60px 0;
+    h2{
+        font-weight: bold;
+        color: $azul;
+        margin-bottom: 10px;
+        margin-top: 0;
+        color: $azul;
+    }
+    .btn-zap {
+        background: $verde !important;
+        margin-top: 30px;
+        padding: 25px !important;
+    }
+}
+
+footer{
+    padding: 60px 0;
+    background: $preto;
+    p{
+        font-size: 14px;
+        color: $cinza;
+    }
+    img{
+        margin-bottom: 30px;
+    }
+    a{
+        color: $cinza;
+    }
+}
+
+@media screen and (max-width: 767px){
+    header{
+        padding: 20px 0;
+        h1{
+            font-weight: bold;
+            color: $cinza;
+            margin-bottom: 20px;
+            margin-top: 0;
+            font-size: 32px;
+        }
+        p{
+            font-size: 18px;
+        }
+        button{
+            margin-top: 20px !important;
+        }
+    }
+    #relaxe{
+        padding: 20px 0;
+        h2{
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        .box{
+            p{
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            img{
+                padding: 0 10px 0 0;
+            }
+        }
+        button{
+            margin-top: 20px;
+        }
+    }
+    #time{
+        padding: 20px 0;
+        h2{
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        .box{
+            p{
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            img{
+                padding: 0 10px 0 0;
+            }
+        }
+        button{
+            margin-top: 20px;
+        }
+    }
+    #gerenciamento{
+        padding: 20px 0;
+        h2{
+            margin-bottom: 0px;
+            font-size: 24px;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        .box{
+            p{
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+        }
+        button{
+            margin-top: 20px;
+        }
+    }
+    #planos{
+        padding: 20px 0;
+        h2{
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .box{
+            p{
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+        }
+        button{
+            margin-top: 20px;
+        }
+    }
+    #duvida{
+        padding: 20px 0;
+        h2{
+            margin-bottom: 0px;
+            font-size: 24px;
+        }
+        button{
+            margin-top: 0px;
+        }
+    }
+    
+}
